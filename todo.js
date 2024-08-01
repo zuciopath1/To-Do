@@ -3,11 +3,11 @@ const addTaskBtn = document.querySelector('#addTaskBtn');
 const taskList = document.getElementById('taskList');
 
 addTaskBtn.addEventListener('click', () => {
-    const taskText = taskInput.value;
+    const taskText = taskInput.value.trim();
     if (taskText) {
         addTask(taskText);
-        taskInput.value = '';
     }
+    taskInput.value = '';
 });
 
 function addTask(text) {
