@@ -32,8 +32,14 @@ input[type="text"] {
     border-radius: 5px 0 0 5px;
     outline: none;
 }
+.other button{
+    width: 60px;
+    background-color: #218838;
+    color: white;
+    cursor: pointer;
+}
 
-button {
+#app button {
     padding: 10px 15px;
     border: none;
     background-color: #28a745;
